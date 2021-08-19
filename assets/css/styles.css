@@ -24,7 +24,7 @@ body {
 }
 
 #navBar .links {
-  padding: 10px;
+  padding: 5px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
