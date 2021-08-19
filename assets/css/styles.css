@@ -17,14 +17,14 @@ body {
 }
 
 #navBar .icon {
-  padding: 15px;
+  padding: 10px;
   vertical-align: middle;
   height: 50px;
   border-radius: 50px;
 }
 
 #navBar .links {
-  padding: 5px;
+  padding: 10px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
