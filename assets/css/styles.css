@@ -1,4 +1,3 @@
-/* Style Settings */
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 :root {
   --font: 'Karla', 'Karla', sans-serif;
@@ -6,137 +5,43 @@
 
 body {
   background-color: #161616;
-}
-
-#userPhoto {
-  width: 96px;
-  height: 96px;
-  display: block;
-  margin: 35px auto 20px;
-  border-radius: 50px;
-  -webkit-box-shadow: 0px 6px 0px 0px #dedaa2;
-  box-shadow: 0px 6px 0px 0px #dedaa2;
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
-}
-
-#userPhoto:hover {
-  -webkit-box-shadow: 0px 8px #dedaa2;
-          box-shadow: 0px 8px #dedaa2;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-
-#userPhoto:active {
-  -webkit-box-shadow: 0px 0px black;
-          box-shadow: 0px 0px black;
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
-}
-
-#userName {
+  margin: 0;
   color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.25;
-  display: block;
-  font-family: var(--font);
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-}
-
-#links {
-  max-width: 675px;
-  width: auto;
-  display: block;
-  margin: 27px auto;
-}
-
-@media only screen and (max-width: 700px) {
-  #links {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-  .night_mode {
-    margin-right: 40%;
-  }
-}
-
-.link {
-  display: block;
-  background-color: #01A79B;
-  color: #fff;
-  font-family: var(--font);
-  text-align: center;
-  margin-bottom: 20px;
-  padding: 17px;
-  text-decoration: none;
-  font-size: 1rem;
+  font-size: 18;
   font-weight: bold;
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
-  -webkit-box-shadow: 0px 6px #007569;
-          box-shadow: 0px 6px #007569;
+  font-family: var(--font), "Courier New", Courier, monospace;
 }
 
-.link:hover {
-  /* background: #019489; */
-  -webkit-box-shadow: 0px 8px #00665c;
-          box-shadow: 0px 8px #00665c;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-  background-color: #007569;
+#navBar {
+  background-color: #01A79B;
 }
 
-.link:active {
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
-  -webkit-box-shadow: 0px 0px #007569;
-          box-shadow: 0px 0px #007569;
+#navBar .icon {
+  padding: 15px;
+  vertical-align: middle;
+  height: 50px;
+  border-radius: 50px;
 }
 
-#proker {
-  max-width: 300px;
-  width: auto;
-  display: -ms-grid;
-  display: grid;
-  margin: 27px auto;
+#navBar .links {
+  padding: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
-.footer {
-  text-align: center;
-  font-size: 1.3rem;
-}
-
-.footer a {
+#navBar .links a {
+  color: white;
   text-decoration: none;
 }
 
-.media {
-  background: #DD5A79;
-  width: 38px;
-  height: 38px;
-  text-align: center;
-  color: white;
-  margin-bottom: 40px;
-  -webkit-box-shadow: 0px 6px #9E4355;
-          box-shadow: 0px 6px #9E4355;
-  -webkit-transition: all 0.15s;
-  transition: all 0.15s;
+#navBar .links:hover {
+  background-color: #161616;
+  border-radius: 10px;
 }
 
-.media:hover {
-  -webkit-box-shadow: 0px 8px #9E4355;
-          box-shadow: 0px 8px #9E4355;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
-}
-
-.media:active {
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
-  -webkit-box-shadow: 0px 0px #9E4355;
-          box-shadow: 0px 0px #9E4355;
+#navBar .links:hover a {
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=styles.css.map */
