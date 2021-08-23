@@ -42,3 +42,26 @@ body {
         }
     }
 }
+
+#footer {
+    background-color: #01A79B;
+    display: inline-flexbox;
+    vertical-align: middle;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    #footerMain {
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-around;
+        max-width: 700px;
+        
+        .icon {
+            height: 35px;
+            margin: 35px;
+            border-radius: 50px;
+        }
+    }
+}
