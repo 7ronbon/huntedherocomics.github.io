@@ -44,4 +44,29 @@ body {
   -webkit-transition: .5s;
   transition: .5s;
 }
+
+#footer {
+  background-color: #01A79B;
+  display: inline-flexbox;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer #footerMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 700px;
+}
+
+#footer #footerMain .icon {
+  height: 40px;
+  margin: 10px;
+  border-radius: 50px;
+}
 /*# sourceMappingURL=styles.css.map */
