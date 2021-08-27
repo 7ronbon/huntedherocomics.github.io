@@ -48,7 +48,7 @@ body {
     display: inline-flexbox;
     vertical-align: middle;
 
-    position: fixed;
+    // position: fixed;
     bottom: 0;
     width: 100%;
 
@@ -57,11 +57,79 @@ body {
         margin: 0 auto;
         justify-content: space-around;
         max-width: 700px;
-        
+
         .icon {
             height: 40px;
             margin: 10px;
             border-radius: 50px;
+        }
+    }
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    min-width: 70px;
+    padding: 10px;
+
+    &:hover {
+        background-color: black;
+    }
+
+    &:active {
+        background-color: cadetblue;
+    }
+}
+
+#catalog {
+
+    .catalogItem {
+        background-color: black;
+        // display: flex;
+        margin: 10px auto;
+        max-width: 800px;
+        border-radius: 5px;
+
+        // @media only screen and (max-width: 600px) {
+        //     display: inline;
+        // }
+
+        *:first-child {
+            margin: 10px;
+        }
+
+        h1 {
+            padding: 5px;
+        }
+
+        hr {
+            margin-bottom: 0;
+        }
+
+        img {
+            // width: 250px;
+            height: 250px;
+        }
+
+        div {
+            display: flex;
+
+            @media only screen and (max-width: 600px) {
+                display: block;
+
+                img {
+                    width: 100%;
+                    margin: 0 !important;
+                }
+            }
+
+            p {
+                margin: 6px;
+            }
         }
     }
 }

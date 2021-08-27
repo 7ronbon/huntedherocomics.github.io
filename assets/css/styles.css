@@ -49,7 +49,6 @@ body {
   background-color: #01A79B;
   display: inline-flexbox;
   vertical-align: middle;
-  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -68,5 +67,67 @@ body {
   height: 40px;
   margin: 10px;
   border-radius: 50px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  background-color: cadetblue;
+  border: 1px solid cadetblue;
+  border-radius: 5px;
+  min-width: 70px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.button:active {
+  background-color: cadetblue;
+}
+
+#catalog .catalogItem {
+  background-color: black;
+  margin: 10px auto;
+  max-width: 800px;
+  border-radius: 5px;
+}
+
+#catalog .catalogItem *:first-child {
+  margin: 10px;
+}
+
+#catalog .catalogItem h1 {
+  padding: 5px;
+}
+
+#catalog .catalogItem hr {
+  margin-bottom: 0;
+}
+
+#catalog .catalogItem img {
+  height: 250px;
+}
+
+#catalog .catalogItem div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  #catalog .catalogItem div {
+    display: block;
+  }
+  #catalog .catalogItem div img {
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+
+#catalog .catalogItem div p {
+  margin: 6px;
 }
 /*# sourceMappingURL=styles.css.map */
