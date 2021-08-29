@@ -12,6 +12,10 @@ body {
     font-size: 18;
     font-weight: bold;
     font-family: var(--font), 'Courier New', Courier, monospace;
+
+    a {
+        color: var(--mainColor);
+    }
 }
 
 #navBar {
