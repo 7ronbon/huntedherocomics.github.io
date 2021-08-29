@@ -55,6 +55,7 @@ body a {
   background-color: var(--mainColor);
   display: inline-flexbox;
   vertical-align: middle;
+  display: none;
   bottom: 0;
   width: 100%;
 }
