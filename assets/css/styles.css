@@ -18,14 +18,18 @@ body a {
   color: var(--mainColor);
 }
 
+body h1, body h2 {
+  margin: 10px;
+}
+
 #navBar {
   background-color: var(--mainColor);
 }
 
 #navBar .icon {
-  padding: 10px;
+  margin: 10px;
   vertical-align: middle;
-  height: 50px;
+  height: 40px;
   border-radius: 50px;
 }
 
@@ -51,11 +55,31 @@ body a {
   transition: .5s;
 }
 
+#carouselExampleIndicators {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 500px;
+  background-color: black;
+}
+
+#carouselExampleIndicators img {
+  height: 100%;
+  max-height: 500px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
 #footer {
   background-color: var(--mainColor);
   display: inline-flexbox;
   vertical-align: middle;
-  display: none;
   bottom: 0;
   width: 100%;
 }
@@ -107,15 +131,15 @@ body a {
 }
 
 #catalog .catalogItem h1 {
-  padding: 5px;
+  padding-top: 10px;
 }
 
 #catalog .catalogItem hr {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #catalog .catalogItem img {
-  height: 250px;
+  height: 350px;
 }
 
 #catalog .catalogItem div {
@@ -136,7 +160,7 @@ body a {
   }
 }
 
-#catalog .catalogItem div p {
+#catalog .catalogItem div h5 {
   margin: 6px;
 }
 /*# sourceMappingURL=styles.css.map */
