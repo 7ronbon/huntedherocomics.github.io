@@ -2,6 +2,7 @@
 
 :root {
     --font: 'Karla', 'Karla', sans-serif;
+    --mainColor: #60269E
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 }
 
 #navBar {
-    background-color: #01A79B;
+    background-color: var(--mainColor);
 
     .icon {
         padding: 10px;
@@ -44,7 +45,7 @@ body {
 }
 
 #footer {
-    background-color: #01A79B;
+    background-color: var(--mainColor);
     display: inline-flexbox;
     vertical-align: middle;
 
@@ -70,8 +71,8 @@ body {
     text-decoration: none;
     color: white;
     margin: 10px;
-    background-color: cadetblue;
-    border: 1px solid cadetblue;
+    background-color: var(--mainColor);
+    border: 1px solid var(--mainColor);
     border-radius: 5px;
     min-width: 70px;
     padding: 10px;

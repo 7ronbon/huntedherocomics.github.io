@@ -2,6 +2,9 @@
 
 :root {
     --font: 'Karla', 'Karla', sans-serif;
+	--mainColor: #60269E;
+	--mainColor2: #772FC4;
+	--mainColor3: #582291;
 }
 
 body {
@@ -61,7 +64,7 @@ body {
 
 .link {
 	display: block;
-	background-color: #01A79B;
+	background-color: var(--mainColor);
 	color: #fff;
 	font-family: var(--font);
 	text-align: center;
@@ -71,14 +74,14 @@ body {
 	font-size: 1rem;
 	font-weight: bold;
 	transition: all 0.15s;
-	box-shadow: 0px 6px #007569;
+	box-shadow: 0px 6px var(--mainColor2);
 }
 
 .link:hover {
 	/* background: #019489; */
-	box-shadow: 0px 8px #00665c;
+	box-shadow: 0px 8px var(--mainColor2);
 	transform: translateY(-2px);
-    background-color: #007569;
+    background-color: var(--mainColor3);
 }
 
 .link:active {
