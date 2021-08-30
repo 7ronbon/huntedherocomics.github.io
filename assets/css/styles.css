@@ -54,6 +54,10 @@ body h2 {
   border-bottom: 4px solid #dedaa2;
 }
 
+#navBar .links .active {
+  border-bottom: 4px solid #e0814a;
+}
+
 #navBar .links:hover {
   background-color: var(--mainColor3);
   -webkit-transition: .5s;

@@ -51,6 +51,10 @@ body {
             text-decoration: none;
             border-bottom: 4px solid rgba(222, 218, 162, 1);
         }
+        
+        .active {
+            border-bottom: 4px solid rgb(224, 129, 74);
+        }
 
         &:hover {
             background-color: var(--mainColor3);
