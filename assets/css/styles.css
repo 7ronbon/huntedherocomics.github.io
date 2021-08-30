@@ -133,7 +133,6 @@ body h2 {
   padding: 20px;
   padding-top: 0;
   min-width: 500px;
-  text-align: justify;
 }
 
 @media only screen and (max-width: 1110px) {
