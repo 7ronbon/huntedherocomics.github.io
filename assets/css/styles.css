@@ -54,10 +54,6 @@ body h2 {
   border-bottom: 4px solid #dedaa2;
 }
 
-#navBar .links .active {
-  border-bottom: 4px solid #e0814a;
-}
-
 #navBar .links:hover {
   background-color: var(--mainColor3);
   -webkit-transition: .5s;
@@ -83,6 +79,88 @@ body h2 {
   display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+@media only screen and (max-width: 1110px) {
+  .content {
+    display: block;
+  }
+  .content img {
+    display: block !important;
+    margin: 20px auto !important;
+    margin-top: 0 !important;
+    max-width: none !important;
+    min-width: unset !important;
+    width: 100%;
+  }
+  .content .text {
+    display: block;
+    margin: 0px !important;
+    min-width: -webkit-fit-content !important;
+    min-width: -moz-fit-content !important;
+    min-width: fit-content !important;
+    font-size: 14px !important;
+  }
+  .content:nth-of-type(even) .text {
+    padding: 20px;
+    padding-top: 0;
+  }
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.content:nth-of-type(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.content:nth-of-type(even) .text {
+  margin: 50px;
+  margin-right: 0;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.content img {
+  min-width: 500px;
+  height: 500px;
+  margin: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.content .text {
+  color: white;
+  vertical-align: top;
+  font-size: 18px;
+  margin: 50px;
+  margin-left: 0;
+  padding: 20px;
+  padding-top: 0;
+  min-width: 500px;
+  text-align: justify;
 }
 
 #footer {

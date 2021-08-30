@@ -51,17 +51,10 @@ body {
             text-decoration: none;
             border-bottom: 4px solid rgba(222, 218, 162, 1);
         }
-        
-        .active {
-            border-bottom: 4px solid rgb(224, 129, 74);
-        }
 
         &:hover {
             background-color: var(--mainColor3);
             transition: .5s;
-
-            a {
-            }
         }
     }
 }
@@ -80,6 +73,88 @@ body {
         display: flex;
         margin: 0 auto;
     }
+}
+
+.content {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    @media only screen and (max-width: 1110px) {
+        display: block;
+
+        img {
+            display: block !important;
+            margin: 20px auto !important;
+            margin-top: 0 !important;
+            max-width: none !important;
+            min-width: unset !important;
+            width: 100%;
+        }
+
+        .text {
+            display: block;
+            margin: 0px !important;
+            min-width: fit-content !important;
+            font-size: 14px !important;
+        }
+
+        &:nth-of-type(even) {
+            .text {
+                padding: 20px;
+                padding-top: 0;
+            }
+        }
+    }
+
+    background-color: black;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    &:nth-of-type(even) {
+        flex-direction: row-reverse;
+
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+
+        .text {
+            margin: 50px;
+            margin-right: 0;
+
+            padding: 20px;
+            padding-top: 0;
+        }
+    }
+
+    img {
+        min-width: 500px;
+        height: 500px;
+        margin: 50px;
+        object-fit: cover;
+    }
+
+    .text {
+        color: white;
+        vertical-align: top;
+        font-size: 18px;
+        margin: 50px;
+        margin-left: 0;
+        padding: 20px;
+        padding-top: 0;
+        min-width: 500px;
+        text-align: justify;
+
+    }
+
 }
 
 #footer {
