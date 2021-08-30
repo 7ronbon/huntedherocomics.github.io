@@ -2,7 +2,9 @@
 
 :root {
     --font: 'Karla', 'Karla', sans-serif;
-    --mainColor: #60269E
+    --mainColor: #60269E;
+    --mainColor2: #772FC4;
+    --mainColor3: #4b1b80;
 }
 
 body {
@@ -31,27 +33,30 @@ body {
     background-color: var(--mainColor);
 
     .icon {
-        margin: 10px;
+        // margin: 10px;
         vertical-align: middle;
         height: 40px;
         border-radius: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .links {
-        padding: 10px;
         display: inline-flex;
 
         a {
+            margin-right: 5px;
+            padding: 15px;
             color: white;
             text-decoration: none;
+            border-bottom: 4px solid rgba(222, 218, 162, 1);
         }
 
         &:hover {
-            background-color: #161616;
-            border-radius: 10px;
+            background-color: var(--mainColor3);
+            transition: .5s;
 
             a {
-                transition: .5s;
             }
         }
     }
@@ -78,6 +83,7 @@ body {
     display: inline-flexbox;
     vertical-align: middle;
     // display: none; //invisible for now
+
     // position: fixed;
     bottom: 0;
     width: 100%;

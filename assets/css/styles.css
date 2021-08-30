@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
 :root {
   --font: 'Karla', 'Karla', sans-serif;
-  --mainColor: #60269E
-;
+  --mainColor: #60269E;
+  --mainColor2: #772FC4;
+  --mainColor3: #4b1b80;
 }
 
 body {
@@ -32,30 +33,29 @@ body h2 {
 }
 
 #navBar .icon {
-  margin: 10px;
   vertical-align: middle;
   height: 40px;
   border-radius: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #navBar .links {
-  padding: 10px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
 
 #navBar .links a {
+  margin-right: 5px;
+  padding: 15px;
   color: white;
   text-decoration: none;
+  border-bottom: 4px solid #dedaa2;
 }
 
 #navBar .links:hover {
-  background-color: #161616;
-  border-radius: 10px;
-}
-
-#navBar .links:hover a {
+  background-color: var(--mainColor3);
   -webkit-transition: .5s;
   transition: .5s;
 }
