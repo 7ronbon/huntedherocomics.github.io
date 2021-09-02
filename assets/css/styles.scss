@@ -70,6 +70,12 @@ body {
         display: flex;
         margin: 0 auto;
     }
+
+    @media only screen and (max-width: 1110px) {
+        img {
+            object-fit: cover;
+        }
+    }
 }
 
 .content {
