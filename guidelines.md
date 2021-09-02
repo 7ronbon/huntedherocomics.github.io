@@ -1,3 +1,3 @@
-# Hunted Hero Comics
+# Hunted Hero Comics Submissions Guidelines
 
-test
+coming soon...
