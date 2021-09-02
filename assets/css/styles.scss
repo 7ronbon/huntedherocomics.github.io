@@ -9,8 +9,8 @@
 
 body {
     background-color: #161616;
-    margin: 0;
     color: white;
+    margin: 0;
     font-size: 14px;
     font-weight: bold;
     font-family: var(--font), 'Courier New', Courier, monospace;
@@ -33,7 +33,6 @@ body {
     background-color: var(--mainColor);
 
     .icon {
-        // margin: 10px;
         vertical-align: middle;
         height: 40px;
         border-radius: 50px;
