@@ -2,9 +2,10 @@
 
 ## Rules
 Hunted Hero Comics reserves the right to not publish works that violate the creiteria below 
-- all works must be original creations (no fanart or fan-fiction)
-- no depictions of sexual penetration, sexual fluids or erect genitalia 
-- no sexualizing minor-aged characters
+- All works must be original creations (no fanart or fan-fiction)
+- No hate speech or targeted harrasment
+- No depictions of sexual penetration, sexual fluids or erect genitalia 
+- No sexualizing minor-aged characters
 
 ## Format
 - 6.25 inches horizontal by 9.25 inches vertical
