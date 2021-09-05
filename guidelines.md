@@ -1,4 +1,4 @@
-# Hunted Hero Comics Submissions Guidelines
+# Hunted Hero Comics Submission Guidelines
 
 ## Rules
 Hunted Hero Comics reserves the right to not publish works that violate the creiteria below 
