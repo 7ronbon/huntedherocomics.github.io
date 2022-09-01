@@ -16,4 +16,4 @@ Hunted Hero Comics reserves the right to not publish works that violate the crei
 ## Submission
 Email your submission at HuntedHeroComics@gmail.com before the deadline. Deadlines can be found in HHC's Discord server (https://discord.link/hhc) in the `#📆schedule` channel. Do not compress you're images. If you don't have enough storage to send it via email, give us the google-drive or onedrive hosted link instead.
 
-*Note: CUNY gives all students 1-Terabyte of cloud storage for free. Use that if you must.*
+*Note: CUNY gives all students 1-Terabyte of cloud storage through Onedrive for free. Use that if you must.*
