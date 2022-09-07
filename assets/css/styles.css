@@ -305,7 +305,7 @@ body h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 2;
+  z-index: 20;
   margin-top: 10vh;
 }
 #modal img {
