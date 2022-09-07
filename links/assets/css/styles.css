@@ -1,6 +1,6 @@
 /* Style Settings */
 :root {
-  --font: 'Karla', 'Karla', sans-serif;
+  --font: "Karla", "Karla", sans-serif;
   --mainColor: #60269E;
   --mainColor2: #772FC4;
   --mainColor3: #582291;
@@ -16,24 +16,18 @@ body {
   display: block;
   margin: 35px auto 20px;
   border-radius: 50px;
-  -webkit-box-shadow: 0px 6px 0px 0px #dedaa2;
-  box-shadow: 0px 6px 0px 0px #dedaa2;
-  -webkit-transition: all 0.15s;
+  box-shadow: 0px 6px 0px 0px rgb(222, 218, 162);
   transition: all 0.15s;
 }
 
 #userPhoto:hover {
-  -webkit-box-shadow: 0px 8px #dedaa2;
-          box-shadow: 0px 8px #dedaa2;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  box-shadow: 0px 8px rgb(222, 218, 162);
+  transform: translateY(-2px);
 }
 
 #userPhoto:active {
-  -webkit-box-shadow: 0px 0px black;
-          box-shadow: 0px 0px black;
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
+  box-shadow: 0px 0px black;
+  transform: translateY(6px);
 }
 
 #userName {
@@ -64,7 +58,6 @@ body {
     margin-right: 40%;
   }
 }
-
 .link {
   display: block;
   background-color: var(--mainColor);
@@ -76,32 +69,25 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  -webkit-transition: all 0.15s;
   transition: all 0.15s;
-  -webkit-box-shadow: 0px 6px var(--mainColor2);
-          box-shadow: 0px 6px var(--mainColor2);
+  box-shadow: 0px 6px var(--mainColor2);
 }
 
 .link:hover {
   /* background: #019489; */
-  -webkit-box-shadow: 0px 8px var(--mainColor2);
-          box-shadow: 0px 8px var(--mainColor2);
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  box-shadow: 0px 8px var(--mainColor2);
+  transform: translateY(-2px);
   background-color: var(--mainColor3);
 }
 
 .link:active {
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
-  -webkit-box-shadow: 0px 0px #007569;
-          box-shadow: 0px 0px #007569;
+  transform: translateY(6px);
+  box-shadow: 0px 0px #007569;
 }
 
 #proker {
   max-width: 300px;
   width: auto;
-  display: -ms-grid;
   display: grid;
   margin: 27px auto;
 }
@@ -122,23 +108,16 @@ body {
   text-align: center;
   color: white;
   margin-bottom: 40px;
-  -webkit-box-shadow: 0px 6px #9E4355;
-          box-shadow: 0px 6px #9E4355;
-  -webkit-transition: all 0.15s;
+  box-shadow: 0px 6px #9E4355;
   transition: all 0.15s;
 }
 
 .media:hover {
-  -webkit-box-shadow: 0px 8px #9E4355;
-          box-shadow: 0px 8px #9E4355;
-  -webkit-transform: translateY(-2px);
-          transform: translateY(-2px);
+  box-shadow: 0px 8px #9E4355;
+  transform: translateY(-2px);
 }
 
 .media:active {
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
-  -webkit-box-shadow: 0px 0px #9E4355;
-          box-shadow: 0px 0px #9E4355;
-}
-/*# sourceMappingURL=styles.css.map */
+  transform: translateY(6px);
+  box-shadow: 0px 0px #9E4355;
+}/*# sourceMappingURL=styles.css.map */

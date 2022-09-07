@@ -46,9 +46,18 @@
 
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="shortcut icon" href="/links/assets/img/logo2.png" type="image/x-icon">
+
+    <script defer src="assets/js/script.js"></script>
 </head>
 
 <body>
+    <div onclick="UnModal()" class="invisible" id="modal-container">
+        <p id="tip" >click anywhere to close the image</p>
+        <p id="caption">caption place holder</p>
+    </div>
+    <div onclick="UnModal()" class="invisible" id="modal">
+        <img id="modal-image" src="" alt="">
+    </div>
     <div id="wrapper">
         <div id="navBar">
             <img class="icon" src="/links/assets/img/logo.png" alt="icon">
