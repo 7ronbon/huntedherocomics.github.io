@@ -26,7 +26,7 @@ body {
 }
 
 #wrapper {
-    min-height: calc(100vh - 246px);
+    min-height: calc(100vh - 276px);
 }
 
 #navBar {
@@ -329,11 +329,12 @@ body {
     text-align: center;
     flex-direction: invert;
 
+    
     p#tip {
         margin-top: calc(4vh);
         color: white;
     }
-
+    
     p#caption {
         margin-top: calc(88vh);
         color: white;
