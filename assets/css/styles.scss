@@ -346,11 +346,9 @@ body {
     width: 100%;
     position: fixed;
     display: flex;
-
     justify-content: center;
     align-items: center;
     z-index: 20;
-
     margin-top: calc((100vh - 80vh)/2);
 
     img {

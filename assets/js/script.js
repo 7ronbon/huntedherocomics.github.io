@@ -2,6 +2,8 @@ function Modal() {
     document.querySelector("#modal-container").classList.remove("invisible");
     document.querySelector("#modal").classList.remove("invisible");
     document.querySelector("#modal-image").src = event.target.src;
+    document.querySelector("#caption").innerHTML = event.target.alt;
+    
     disableScroll();
 }
 
