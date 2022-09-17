@@ -65,6 +65,10 @@ body {
     width: 100%;
     max-height: 500px;
     background-color: black;
+
+    .carousel-indicators {
+        z-index: 1 !important;
+    }
     
     img {
         height: 100%;
